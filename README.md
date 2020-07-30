@@ -140,6 +140,22 @@ Le robot est également équipé d'un buzzer et de deux leds à l'avant permetta
 
 ## Utilisation
 
+### Montage
+
+* Insérer et fixer le moteur vertical (gauche) avec 2 vis XXX
+* Insérérer et fixer le moteur horizontal (droit) avec 2 vis XXX
+* Insérer la nappe dans la caméra, et fixer la caméra avec 4 vis XXX. Faire passer la nappe entre les 2 moteurs
+* Approcher la custom board, faire passer la nappe dans l'encoche et connecter le moteur :
+  * gauche sur J2
+  * droit sur J3
+* Fixer la custom board sous le chassis à l'aide de 4 vis XXX
+* Connecter la nappe dans la Raspi et connecter la Raspi sur la custom board
+* Connecter la batterie et l'insérer verticalement dans son logement, fils vers le haut 
+* Fixer le couvercle arrière à l'aide de deux vis XXX
+* Flasher la carte microSD et l'insérer dans son emplacement
+* Fixer le couvercle avant à l'aide de 2 vis XXX à l'avant et 2 vis XXX dessous
+* Monter 2 pneus sur 2 roues et les insérer sur leurs axes
+
 ### Python
 
 L'API Python permet de controler le robot, d'accéder aux valeurs renvoyées par les senseurs ainsi que d'accéder à la caméra. Elle permet également l'utilisation des primitives de vision telles que la détection d'une ligne noire ou la détection d'objets.
