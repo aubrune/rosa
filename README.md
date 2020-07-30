@@ -151,9 +151,9 @@ Le robot est également équipé d'un buzzer et de deux leds à l'avant permetta
 * Fixer la custom board sous le chassis à l'aide de 4 vis XXX
 * Connecter la nappe dans la Raspi et connecter la Raspi sur la custom board
 * Connecter la batterie et l'insérer verticalement dans son logement, fils vers le haut 
-* Fixer le couvercle arrière à l'aide de deux vis XXX
+* Fixer le couvercle arrière à l'aide de deux vis XXX à l'arrière et 2 vis XXX dessous sous la Raspi
 * Flasher la carte microSD et l'insérer dans son emplacement
-* Fixer le couvercle avant à l'aide de 2 vis XXX à l'avant et 2 vis XXX dessous
+* Fixer le couvercle avant à l'aide de 2 vis XXX à l'avant et 2 vis XXX dessous sous la Raspi
 * Monter 2 pneus sur 2 roues et les insérer sur leurs axes
 
 ### Python
