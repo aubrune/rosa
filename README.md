@@ -98,6 +98,15 @@ Cependant, pour pouvoir fonctionner ZeroConf nécessite d'installer un logiciel 
 - Pour Linux : avahi-daemon (mDNS) et avahi-autoipd (IPv4LL)
 - Pour MacOS : ZeroConf est déjà installé.
 
+#### Accès SSH
+
+Nom d'utilisateur `pi`, mot de passe `rosa`
+
+```
+ssh pi@rosa.local
+# password rosa
+```
+
 ## Capacités et caractéristiques
 
 Le robot a été conçu pour pouvoir être utilisé dans différentes activités et dans des contextes variés. Les différentes capacités et caractéristiques du robot sont présentées ci-dessous.
@@ -146,8 +155,8 @@ Le robot est également équipé d'un buzzer et de deux leds à l'avant permetta
 * Insérérer et fixer le moteur horizontal (droit) avec 2 vis XXX
 * Insérer la nappe dans la caméra, et fixer la caméra avec 4 vis XXX. Faire passer la nappe entre les 2 moteurs
 * Approcher la custom board, faire passer la nappe dans l'encoche et connecter le moteur :
-  * gauche sur J2
-  * droit sur J3
+  * droit sur J2
+  * gauche sur J3
 * Fixer la custom board sous le chassis à l'aide de 4 vis XXX
 * Connecter la nappe dans la Raspi et connecter la Raspi sur la custom board
 * Connecter la batterie et l'insérer verticalement dans son logement, fils vers le haut 
