@@ -22,7 +22,7 @@ Les exports STL pour l'impressions sont disponibles dans les [releases](https://
 
 | Nom                                                | Reference | Quantitée | Coût estimé| lien                                                                                                  |
 |-----------------------------------------------------|------------|----------|----------------|-------------------------------------------------------------------------------------------------------|
-| FeeTech 130 DC motor gear box **with 90° shaft**    | FT-DC-130D | 2        | US$0.72        | http://www.feetechrc.com/                                                                             |
+| FeeTech 130 DC motor gear box **with 90° single shaft and JST PHR2 connector** ([photo](img/130D.jpg))    | FT-DC-130D | 2        | US$0.72        | http://www.feetechrc.com/                                                                             |
 | FeeTech Wheel for DC Motor gear box                 | FT-DC-W    | 2        | US$0.73        | http://www.feetechrc.com/                                                                             |
 | Raspberry Pi 3 - Model A+                           |            | 1        | 20€            | https://fr.rs-online.com/web/p/products/8332699/                                                      |
 | Raspberry Pi Camera Board - Fisheye 160° Lens (5MP) |            | 1        | 7-25€          | https://fr.aliexpress.com/item/32963289790.html                                                       |
@@ -53,9 +53,11 @@ Une fois la carte écrite avec l'image téléchargée, elle peut être insérée
 
 Afin de simplifier la première connexion au réseau WiFi, il est possible de le paramétrer directement sur la carte SD que l'on vient d'écrire. Il peut donc être plus pratique de réaliser cette étape avant d'insérer dans le robot (voir section [Connecter au réseau WiFi](https://github.com/pollen-robotics/rosa#connecter-rosa-au-réseau) pour plus d'informations).
 
-### Alimentation
+### Alimentation et charge
 
-Nous conseillons d'alimenter Rosa avec cette batterie: [Zippy Compact 800mAh 2S](https://hobbyking.com/fr_fr/zippy-compact-800mah-2s1p-20c.html). Elle peut être rechargé via un chargeur LiPo comme celui ci: [HobbyKing B3AC Compact Chargeur](https://hobbyking.com/fr_fr/hobbykingr-b3ac-compact-charger-eu-plug.html).
+Nous conseillons d'alimenter Rosa avec cette batterie: [Zippy Compact 800mAh 2S](https://hobbyking.com/fr_fr/zippy-compact-800mah-2s1p-20c.html). Elle peut être rechargé via un chargeur LiPo comme celui-ci : [HobbyKing B3AC Compact Chargeur](https://hobbyking.com/fr_fr/hobbykingr-b3ac-compact-charger-eu-plug.html). Il n'est pas possible de charger la batterie via l'USB, mais pour les utilisateurs avancés il n'y a pas de problème à brancher l'USB et la batterie en même temps.
+
+Le buzzer bipe de façon stridente lorsque la batterie n'est plus assez chargée. Dans ce cas il est **primordial** de ne plus l'utiliser et de la mettre en charge, au risque de la détériorer définitivement.
 
 ### Connecter Rosa au réseau
 
