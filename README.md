@@ -55,9 +55,14 @@ Afin de simplifier la première connexion au réseau WiFi, il est possible de le
 
 ### Alimentation et charge
 
-Nous conseillons d'alimenter Rosa avec cette batterie: [Zippy Compact 800mAh 2S](https://hobbyking.com/fr_fr/zippy-compact-800mah-2s1p-20c.html). Elle peut être rechargé via un chargeur LiPo comme celui-ci : [HobbyKing B3AC Compact Chargeur](https://hobbyking.com/fr_fr/hobbykingr-b3ac-compact-charger-eu-plug.html). Il n'est pas possible de charger la batterie via l'USB, mais pour les utilisateurs avancés il n'y a pas de problème à brancher l'USB et la batterie en même temps.
+Nous conseillons d'alimenter Rosa avec cette batterie: [Zippy Compact 800mAh 2S](https://hobbyking.com/fr_fr/zippy-compact-800mah-2s1p-20c.html).
+Elle peut être rechargé via un chargeur LiPo comme celui-ci : [HobbyKing B3AC Compact Chargeur](https://hobbyking.com/fr_fr/hobbykingr-b3ac-compact-charger-eu-plug.html). Seul le connecteur 2S de la batterie (le connecteur blanc à 3 fils) est utilisé par le robot.
+Il est extrêmement important de **déconnecter la batterie lorsque vous n'utilisez pas le robot**. Même le robot éteint, une batterie qui reste branchée pourrait devenir inutilisable en quelques semaines seulement.
+Il n'est pas possible de charger la batterie via l'USB, mais pour les utilisateurs avancés il n'y a pas de problème à brancher l'USB et la batterie en même temps.
 
-Le buzzer bipe de façon stridente lorsque la batterie n'est plus assez chargée. Dans ce cas il est **primordial** de ne plus l'utiliser et de la mettre en charge, au risque de la détériorer définitivement.
+Le buzzer bipe de façon stridente de façon :
+* **discontinue** lorsque la batterie n'est plus assez chargée : Dans ce cas il est **primordial** de ne plus l'utiliser et de la mettre en charge, au risque de la détériorer définitivement.
+* **continue** lorsque la batterie est hors service : elle peut peut-être être récupérée avec un chargeur LiPo lent ou est destinée au rebut
 
 ### Connecter Rosa au réseau
 
