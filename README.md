@@ -29,11 +29,11 @@ Les exports STL pour l'impressions sont disponibles dans les [releases](https://
 | SD card 16Go                                        |            | 1        | 4€             | https://www.amazon.fr/NMicro-m%C3%A9moire-MicroSD-microSDHC-adaptateur/dp/B00N5TM8TY/ref=sr_1_1_sspa? |
 | ZIPPY Compact 850mAh 2S 25C Lipo                    |ZC.850.2S.25| 1        | 5€             | https://hobbyking.com/fr_fr/zippy-compact-850mah-2s-25c-lipo-pack.html |
 | Koncepto Custom Board                               |            | 1        | 57.5           |                                                                                                       |
-| Vis M2.5x8 pour fixer les moteurs                   |            | 4        |                | https://www.cergy-vis.fr/vis-autotaraudeuses/vis-pour-thermoplastiques/tete-fraisee-pozidrive/eco-syn-pour-thermoplastiques-tfz-acier-zingue-blanc.html
+| Vis M3x8 pour fixer les moteurs                   |            | 4        |                | https://www.cergy-vis.fr/vis-autotaraudeuses/vis-pour-thermoplastiques/tete-fraisee-pozidrive/eco-syn-pour-thermoplastiques-tfz-acier-zingue-blanc.html
 | Vis M2.5x6 pour fixer la coque                      |            | 4        |                | https://www.cergy-vis.fr/vis-autotaraudeuses/vis-pour-thermoplastiques/tete-cylindrique-bombee-phillips/plastite-tcb-phillips-wn-1412-acier-zingue-blanc.html
 | Vis M2.5x6 pour fixer la coque                      |            | 4        |                | https://www.cergy-vis.fr/vis-autotaraudeuses/vis-pour-thermoplastiques/tete-cylindrique-bombee-phillips/plastite-tcb-phillips-wn-1412-acier-zingue-blanc.html
 | Vis M2.2x5 pour fixer la pi                         |            | 4        |                | https://www.cergy-vis.fr/vis-autotaraudeuses/vis-pour-thermoplastiques/tete-cylindrique-bombee-phillips/plastite-tcb-phillips-wn-1412-acier-zingue-blanc.html
-| Vis M2 pour fixer la custom boar + camera           |            | 8        |                | 
+| Vis M2x5 pour fixer la carte élec Rosa + camera           |            | 8        |                | 
 
 ### Electronique
 
@@ -88,6 +88,8 @@ network={
 ```
 
 Plus d'informations sur comment connecter une Raspberry-Pi à un réseau WiFi sont disponibles [sur le site de Raspberry-Pi](https://www.raspberrypi.org/documentation/configuration/wireless/).
+
+Conseil : Plutôt qu'une box Internet, il est plus aisé d'utiliser la fonction "Point d'accès Wifi" d'un smartphone pour se connecter à Rosa. En effet, les smartphones possèdent généralement une fonctionnalité d'affichage rapide des appareils connectés, vous permettant de vérifier que la Raspberry Pi s'est bien connectée avant d'aller plus loin.
 
 #### Ethernet via USB
 
@@ -158,19 +160,19 @@ Le robot est également équipé d'un buzzer et de deux leds à l'avant permetta
 
 ### Montage
 
-* Insérer et fixer le moteur vertical (gauche) avec 2 vis XXX
-* Insérérer et fixer le moteur horizontal (droit) avec 2 vis XXX
-* Insérer la nappe dans la caméra, et fixer la caméra avec 4 vis XXX. Faire passer la nappe entre les 2 moteurs
-* Approcher la custom board, faire passer la nappe dans l'encoche et connecter le moteur :
+* Insérer et fixer le moteur vertical (gauche) avec 2 vis M3x8
+* Insérérer et fixer le moteur horizontal (droit) avec 2 vis M3x8
+* Insérer la nappe dans la caméra, et fixer la caméra avec 4 vis M2x5. Faire passer la nappe entre les 2 moteurs
+* Approcher la carte électronique Rosa du chassis, faire passer la nappe dans l'encoche et connecter le moteur :
   * droit sur J2
   * gauche sur J3
-* Fixer la custom board sous le chassis à l'aide de 4 vis XXX
+* Fixer la carte électronique Rosa sous le chassis à l'aide de 4 vis M2x5
 * Connecter la nappe dans la Raspi et connecter la Raspi sur la custom board
 * Connecter la batterie et l'insérer verticalement dans son logement, fils vers le haut 
-* Fixer le couvercle arrière à l'aide de deux vis XXX à l'arrière et 2 vis XXX dessous sous la Raspi
+* Fixer le couvercle arrière à l'aide de deux vis M2.5x6 à l'arrière et 2 vis M2.2x5 dessous sous la Raspi
 * Flasher la carte microSD et l'insérer dans son emplacement
-* Fixer le couvercle avant à l'aide de 2 vis XXX à l'avant et 2 vis XXX dessous sous la Raspi
-* Monter 2 pneus sur 2 roues et les insérer sur leurs axes
+* Fixer le couvercle avant à l'aide de 2 vis M2.5x6 à l'avant et 2 vis M2.2x5 dessous sous la Raspi
+* Monter 2 pneus sur 2 roues, les insérer sur leurs axes et les visser avec les vis du sachet de roues
 
 ### Python
 
@@ -182,4 +184,4 @@ Pour plus de détails, se reporter à la documentation dédiée : [Python's API]
 
 Le robot peut également être programmé à l'aide d'une version dédiée de Scratch 3. Elle est accessible en ligne directement ici : http://www.scratch.pollen-robotics.cc
 
-Les différents blocs proposés sont présentés ici : [extension Rosa pour Scratch 3](./api/scratch/readme.md).
+Les différents blocs proposés sont présentés ici : [extension Rosa pour Scratch 3](./api/scratch/readme.md). 
