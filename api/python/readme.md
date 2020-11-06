@@ -1,3 +1,42 @@
+# Utiliser ROSA avec Python
+
+Pour utiliser ROSA avec Python nous vous conseillons d'installer la dernière version d'[Edupython](https://edupython.tuxfamily.org/), une distribution Python conçue spécialement pour l'éducation, puis de suivre ces étapes :
+
+## 1. Ouvrir un terminal `cmd` dans Edupython
+
+Ouvrez d'abord l'invite de commande `cmd` dans Edupython comme montré par l'encadré orange ci-dessous. Si une fenêtre vous propose d'enregistrer votre script Python `module1.py`, vous pouvez l'annuler.
+
+![Ouvrir un terminal cmd dans Edupython](img/rosa-cmd.png)
+
+## 2. Installer `rosa-robot` avec pip
+
+Dans le terminal `cmd` apparaissant sur fond noir, tapez `pip install rosa-robot` à la suite de l'invite de commande préinscrit, comme sur l'encadré orange. Puis tapez Entrée pour lancer l'installation.
+
+![Installer Rosa pour Python dans le terminal cmd d'Edupython](img/rosa-pip.png)
+
+Laissez le téléchargement et l'installation se dérouler plusieurs minutes jusqu'à ce que l'invite de commande `C:\EduPython\App\Scripts>` s'affiche de nouveau sur la toute dernière ligne du terminal. Vous pouvez ensuite fermer le terminal `cmd` et retourner dans Edupython.
+
+## 3. Programmer ROSA dans la console Python d'Edupython
+
+Mettez votre robot en marche, si ce n'est déjà fait connectez votre robot en wifi (avec wpa_supplicant) ainsi que votre ordinateur, puis utuilisez la console Python d'Edupython pour programmer ROSA, essayez par exemple ces 3 lignes :
+
+```
+from rosa import Rosa
+rosa = Rosa('rosa.local')
+rosa.left_wheel.speed = 0.25
+```
+
+Vous devriez voir tourner la roue gauche à 25% de sa vitesse maximale. Si une grosse erreur rouge apparaît à la deuxième ligne, c'est probablement que la communication Wifi avec votre ROSA ne fonctionne pas, vérifiez le Wifi.
+
+![Faire tourner la roue gauche à 25% de sa vitesse dans Edupython](img/rosa-wheel.png)
+
+## 4. Pour aller plus loin
+
+Pour découvrir d'autres choses à faire avec votre ROSA et sa caméra en Python, veuillez parcourir la documentation de l'API Python anglophone ci-dessous ou bien les 8 [exemples de scripts Python](./examples).
+
+## Remarque : Edupython est-il obligatoire ?
+Si vous êtes déjà connaisseur de Python/pip et disposez d'un environnement Python différent, vous saurez probablement installer `rosa-robot` avec pip sans passer par Edupython, qui n'est aucunement obligatoire.
+
 # Python's API for the ROSA robot
 
 Rosa can be controlled through WiFi via a Python's API. This API lets you control the robot: make it move, read its distance or color sensors and access its camera to retrieve an image. It also provides higher level functionalities like detecting a line or specific objects in an image.
