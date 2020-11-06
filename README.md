@@ -1,3 +1,4 @@
+[![PyPI](https://img.shields.io/pypi/v/rosa-robot.svg)](https://pypi.python.org/pypi/rosa-robot/)
 [![Build Status](https://travis-ci.org/pollen-robotics/rosa.svg?branch=master)](https://travis-ci.org/pollen-robotics/rosa)
 
 # Le projet Rosa : un robot ramasseur d'objets
