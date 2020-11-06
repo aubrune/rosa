@@ -66,7 +66,7 @@ Le buzzer bipe de façon stridente de façon :
 
 ### Connecter Rosa au réseau
 
-Afin de pouvoir programmer le robot, il est nécessaire de le connecter au même réseau que son ordinateur ou sa tablette. Il peut se connecter au WiFi ou en Ethernet via un adaptateur USB.
+Afin de pouvoir programmer le robot, il est nécessaire de le connecter au même réseau que son ordinateur ou sa tablette. Il peut se connecter au WiFi ou en Ethernet via un adaptateur USB. Quel que soit le type de connexion utilisé, n'oubliez pas d'installer [Zeroconf](#installation-de-zeroconf).
 
 #### WiFi
 
@@ -97,17 +97,17 @@ Il est également possible de connecter le robot au réseau via un cable en util
 
 La détection du réseau est alors automatique.
 
-#### Utilisation de ZeroConf
+#### Installation de ZeroConf
 
-Le robot est toujours accessible sur le réseau à l'adresse *rosa.local*. Cela permet de simplifier la procédure de connexion, il n'est pas nécessaire de connaître l'adresse IP du robot. Cette addresse est utilisée par défaut par l'extension Scratch 3.
+Le robot est toujours accessible sur le réseau à l'adresse *rosa.local*. Cela permet de simplifier la procédure de connexion, car il n'est pas nécessaire de connaître l'adresse IP du robot. Cette addresse *rosa.local* est sous-endentue dans l'extension Scratch 3, tandis qu'il est nécessaire de l'expliciter en Python lors de la connexion. 
 
 Cependant, pour pouvoir fonctionner ZeroConf nécessite d'installer un logiciel sur l'ordinateur.
 
-- Pour Windows : [Bonjour print services](https://support.apple.com/kb/DL999)
+- Pour Windows : [Bonjour print services](https://support.apple.com/kb/DL999) : redémarrez impérativement Windows après l'installation
 - Pour Linux : avahi-daemon (mDNS) et avahi-autoipd (IPv4LL)
 - Pour MacOS : ZeroConf est déjà installé.
 
-#### Accès SSH
+#### Accès SSH (ou PuTTY sous Windows)
 
 Nom d'utilisateur `pi`, mot de passe `rosa`
 
@@ -173,6 +173,7 @@ Le robot est également équipé d'un buzzer et de deux leds à l'avant permetta
 * Flasher la carte microSD et l'insérer dans son emplacement
 * Fixer le couvercle avant à l'aide de 2 vis M2.5x6 à l'avant et 2 vis M2.2x5 dessous sous la Raspi
 * Monter 2 pneus sur 2 roues, les insérer sur leurs axes et les visser avec les vis du sachet de roues
+* Faîtes tourner les roues manuellement pour vérifier qu'elles ne frottent pas contre la carrosserie. Si l'axe moteur frotte, agrandissez légèrement le trou de l'axe. Si la roue frotte, vérifiez que le moteur est bien vissé et plaqué contre la carosserie sans artéfact de l'impression 3D qui le ferait dévier. 
 
 ### Python
 
