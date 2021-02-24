@@ -23,8 +23,8 @@ Les exports STL pour l'impressions sont disponibles dans les [releases](https://
 
 | Nom                                                | Reference | Quantitée | Coût estimé| lien                                                                                                  |
 |-----------------------------------------------------|------------|----------|----------------|-------------------------------------------------------------------------------------------------------|
-| FeeTech 130 DC motor gear box **with 90° single shaft and JST PHR2 connector** ([photo](img/130D.jpg))    | FT-DC-130D | 2        | US$0.72        | http://www.feetechrc.com/                                                                             |
-| FeeTech Wheel for DC Motor gear box                 | FT-DC-W    | 2        | US$0.73        | http://www.feetechrc.com/                                                                             |
+| L-shape 130 speed single shaft output DC motor Gearbox 1:48 **with JST PHR2 connector** ([photo](img/130D.jpg))    | FT-DC-L130D | 2        | US$0.72        | http://www.feetechrc.com/ https://www.feetechrc.com/Data/feetechrc/upload/file/20201218/6374390113238825423265442.pdf                                                                             |
+| FeeTech Wheel for DC Motor gear box                 | FT-DC-W    | 2        | US$0.73        | http://www.feetechrc.com/                                                                            |
 | Raspberry Pi 3 - Model A+                           |            | 1        | 20€            | https://fr.rs-online.com/web/p/products/8332699/                                                      |
 | Raspberry Pi Camera Board - Fisheye 160° Lens (5MP) |            | 1        | 7-25€          | https://fr.aliexpress.com/item/32963289790.html                                                       |
 | SD card 16Go                                        |            | 1        | 4€             | https://www.amazon.fr/NMicro-m%C3%A9moire-MicroSD-microSDHC-adaptateur/dp/B00N5TM8TY/ref=sr_1_1_sspa? |
